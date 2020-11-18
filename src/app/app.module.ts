@@ -18,6 +18,7 @@ import { SpotifyService } from './services/spotify.service';
 //import pipes
 import { NoimgePipe } from './pipes/noimge.pipe';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
     ArtistaComponent,
     NavbarComponent,
     NoimgePipe,
-    TarjetasComponent
+    TarjetasComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

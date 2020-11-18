@@ -9,6 +9,7 @@ import { SpotifyService } from '../../services/spotify.service';
 export class SearchComponent  {
 
   artistas:any[]=[];
+  loading:boolean;
 
 
   constructor(private spotify: SpotifyService) { }
@@ -16,7 +17,8 @@ export class SearchComponent  {
  
 
   buscar(termino:string){
-
+  
+    this.loading=true;
     console.log(termino);
 
     this.spotify.getArtista(termino)
@@ -24,6 +26,9 @@ export class SearchComponent  {
           console.log(data);
 
           this.artistas=data;
+
+          this.loading=false;
+
         });
 
   }
