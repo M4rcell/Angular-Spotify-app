@@ -15,13 +15,19 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 // import services
 import { SpotifyService } from './services/spotify.service';
 
+//import pipes
+import { NoimgePipe } from './pipes/noimge.pipe';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoimgePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,
