@@ -11,11 +11,11 @@ height="100"
 
 
 <div align="center"> 
-     <img width="45%" height="100" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/home.png" alt="About screen" title="About screen"</img> 
-     <img width="45%"height="100" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/search.png" alt="List screen" title="List screen"></img> 
+     <img width="45%"  src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/home.png" alt="About screen" title="About screen"</img> 
+     <img width="45%"  src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/search.png" alt="List screen" title="List screen"></img> 
 </div> 
 
-<hr>
+<br>
 
 <div align="center"> 
      <img width="45%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/artista.png" alt="artist screen" title="artist screen"> 
