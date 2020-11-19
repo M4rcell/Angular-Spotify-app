@@ -9,23 +9,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## DEMO
 
 
-<hr>
-
-<h3>En Desktop</h3>
-   <img height=1600"  width="800" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/artista.png" alt=""> 
-   <img height=1600"  width="800" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/loading.png" alt=""> 
- 
-
-<hr>
-
-
-<h3>En Mobile</h3>
-<img height="3000"  width="200" src="https://github.com/M4rcell/Landing-page-fylo-dark/blob/master/design/mobile-design.jpg" alt="">
-
 
 <div align="center"> 
      <img width="45%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/home.png" alt="About screen" title="About screen"</img> 
      <img width="45%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/search.png" alt="List screen" title="List screen"></img> 
-     <img width="50%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/artista.png" alt=""> 
-     <img width="50%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/loading.png" alt=""> 
+</div> 
+
+<div align="center"> 
+     <img width="45%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/home.png" alt="home screen" title="home screen"</img> 
+     <img width="45%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/search.png" alt="search screen" title="search screen"></img> 
+     <img width="50%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/artista.png" alt="artist screen" title="artist screen"> 
+     <img width="50%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/loading.png" alt="loading screen" title="loading screen"> 
 </div> 
