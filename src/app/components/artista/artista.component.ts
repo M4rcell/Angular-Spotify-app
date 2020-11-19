@@ -10,6 +10,8 @@ import { SpotifyService } from '../../services/spotify.service';
 export class ArtistaComponent {
 
   artista:any={};
+  topTracks:any[]=[];
+
   loading:boolean;
 
   
@@ -22,7 +24,9 @@ export class ArtistaComponent {
 
        //console.log(params);
       // console.log(params['id']);
-      this.getArtista(params['id']);
+      this.getArtista(params['id']); //llamando buscador por artista por id
+      this.getTopTracks(params['id']);
+
     });
 
    }
@@ -38,6 +42,15 @@ export class ArtistaComponent {
        this.loading=false; // cuando ya se cargo
     });
 
+  }
+
+  getTopTracks(id:string){ 
+
+    this.spotify.getTopTracks(id)
+        .subscribe(toptracks=>{
+          console.log(toptracks);
+          this.topTracks=toptracks;
+        })
   }
    
   
