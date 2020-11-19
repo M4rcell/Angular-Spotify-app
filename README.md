@@ -16,6 +16,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 </div> 
 
 <div align="center"> 
-     <img width="50%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/artista.png" alt="artist screen" title="artist screen"> 
-     <img width="50%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/loading.png" alt="loading screen" title="loading screen"> 
+     <img width="45%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/artista.png" alt="artist screen" title="artist screen"> 
+     <img width="45%" src="https://github.com/M4rcell/Angular-Spotify-app/blob/main/src/assets/demo/loading.png" alt="loading screen" title="loading screen"> 
 </div> 
